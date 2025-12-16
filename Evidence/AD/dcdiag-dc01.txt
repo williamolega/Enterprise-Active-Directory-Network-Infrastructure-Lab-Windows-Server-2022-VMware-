@@ -1,1 +1,137 @@
+C:\Users\Administrator>dcdiag
 
+Directory Server Diagnosis
+
+Performing initial setup:
+   Trying to find home server...
+   Home Server = DC01
+   * Identified AD Forest.
+   Done gathering initial info.
+
+Doing initial required tests
+
+   Testing server: Default-First-Site-Name\DC01
+      Starting test: Connectivity
+         ......................... DC01 passed test Connectivity
+
+Doing primary tests
+
+   Testing server: Default-First-Site-Name\DC01
+      Starting test: Advertising
+         ......................... DC01 passed test Advertising
+      Starting test: FrsEvent
+         ......................... DC01 passed test FrsEvent
+      Starting test: DFSREvent
+         ......................... DC01 passed test DFSREvent
+      Starting test: SysVolCheck
+         ......................... DC01 passed test SysVolCheck
+      Starting test: KccEvent
+         A warning event occurred.  EventID: 0x80000BEB
+            Time Generated: 12/16/2025   12:52:05
+            Event String:
+            The directory has been configured to not enforce per-attribute authorization during LDAP add operations. Warning events will be logged, but no requests will be blocked.
+         A warning event occurred.  EventID: 0x80000BEE
+            Time Generated: 12/16/2025   12:52:05
+            Event String:
+            The directory has been configured to allow implicit owner privileges when initially setting or modifying the nTSecurityDescriptor attribute during LDAP add and modify operations. Warning events will be logged, but no requests will be blocked.
+         A warning event occurred.  EventID: 0x80000B46
+            Time Generated: 12/16/2025   12:52:15
+            Event String:
+            The security of this directory server can be significantly enhanced by configuring the server to reject SASL (Negotiate, Kerberos, NTLM, or Digest) LDAP binds that do not request signing (integrity verification) and LDAP simple binds that are performed on a clear text (non-SSL/TLS-encrypted) connection.  Even if no clients are using such binds, configuring the server to reject them will improve the security of this server.
+         A warning event occurred.  EventID: 0x80000BE1
+            Time Generated: 12/16/2025   12:52:15
+            Event String:
+            The security of this directory server can be significantly enhanced by configuring the server to enforce  validation of Channel Binding Tokens received in LDAP bind requests sent over LDAPS connections. Even if  no clients are issuing LDAP bind requests over LDAPS, configuring the server to validate Channel Binding  Tokens will improve the security of this server.
+         ......................... DC01 passed test KccEvent
+      Starting test: KnowsOfRoleHolders
+         ......................... DC01 passed test KnowsOfRoleHolders
+      Starting test: MachineAccount
+         ......................... DC01 passed test MachineAccount
+      Starting test: NCSecDesc
+         ......................... DC01 passed test NCSecDesc
+      Starting test: NetLogons
+         ......................... DC01 passed test NetLogons
+      Starting test: ObjectsReplicated
+         ......................... DC01 passed test ObjectsReplicated
+      Starting test: Replications
+         ......................... DC01 passed test Replications
+      Starting test: RidManager
+         ......................... DC01 passed test RidManager
+      Starting test: Services
+         ......................... DC01 passed test Services
+      Starting test: SystemLog
+         A warning event occurred.  EventID: 0x000727A5
+            Time Generated: 12/16/2025   12:51:38
+            Event String: The WinRM service is not listening for WS-Management requests.
+         A warning event occurred.  EventID: 0x000003F6
+            Time Generated: 12/16/2025   12:52:07
+            Event String:
+            Name resolution for the name _ldap._tcp.dc._msdcs.ad.enterprise.lab. timed out after none of the configured DNS servers responded.
+         A warning event occurred.  EventID: 0x000003F6
+            Time Generated: 12/16/2025   12:52:07
+            Event String:
+            Name resolution for the name _ldap._tcp.dc._msdcs.ad.enterprise.lab. timed out after none of the configured DNS servers responded.
+         A warning event occurred.  EventID: 0x000003F6
+            Time Generated: 12/16/2025   12:52:07
+            Event String:
+            Name resolution for the name wpad timed out after none of the configured DNS servers responded.
+         A warning event occurred.  EventID: 0x000727AA
+            Time Generated: 12/16/2025   12:52:28
+            Event String:
+            The WinRM service failed to create the following SPNs: WSMAN/DC01.ad.enterprise.lab; WSMAN/DC01.
+         A warning event occurred.  EventID: 0x00002724
+            Time Generated: 12/16/2025   12:52:32
+            Event String:
+            This computer has at least one dynamically assigned IPv6 address.For reliable DHCPv6 server operation, you should use only static IPv6 addresses.
+         A warning event occurred.  EventID: 0x00000086
+            Time Generated: 12/16/2025   12:52:36
+            Event String:
+            NtpClient was unable to set a manual peer to use as a time source because of DNS resolution error on 'time.windows.com.0x9'. NtpClient will try again in 15 minutes and double the reattempt interval thereafter. The error was: No such host is known. (0x80072AF9)
+         A warning event occurred.  EventID: 0x00000086
+            Time Generated: 12/16/2025   12:52:38
+            Event String:
+            NtpClient was unable to set a manual peer to use as a time source because of DNS resolution error on 'time.windows.com.0x9'. NtpClient will try again in 15 minutes and double the reattempt interval thereafter. The error was: No such host is known. (0x80072AF9)
+         A warning event occurred.  EventID: 0x00002720
+            Time Generated: 12/16/2025   12:52:56
+            Event String:
+            The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID
+         ......................... DC01 passed test SystemLog
+      Starting test: VerifyReferences
+         ......................... DC01 passed test VerifyReferences
+
+
+   Running partition tests on : ForestDnsZones
+      Starting test: CheckSDRefDom
+         ......................... ForestDnsZones passed test CheckSDRefDom
+      Starting test: CrossRefValidation
+         ......................... ForestDnsZones passed test CrossRefValidation
+
+   Running partition tests on : DomainDnsZones
+      Starting test: CheckSDRefDom
+         ......................... DomainDnsZones passed test CheckSDRefDom
+      Starting test: CrossRefValidation
+         ......................... DomainDnsZones passed test CrossRefValidation
+
+   Running partition tests on : Schema
+      Starting test: CheckSDRefDom
+         ......................... Schema passed test CheckSDRefDom
+      Starting test: CrossRefValidation
+         ......................... Schema passed test CrossRefValidation
+
+   Running partition tests on : Configuration
+      Starting test: CheckSDRefDom
+         ......................... Configuration passed test CheckSDRefDom
+      Starting test: CrossRefValidation
+         ......................... Configuration passed test CrossRefValidation
+
+   Running partition tests on : ad
+      Starting test: CheckSDRefDom
+         ......................... ad passed test CheckSDRefDom
+      Starting test: CrossRefValidation
+         ......................... ad passed test CrossRefValidation
+
+   Running enterprise tests on : ad.enterprise.lab
+      Starting test: LocatorCheck
+         ......................... ad.enterprise.lab passed test LocatorCheck
+      Starting test: Intersite
+         ......................... ad.enterprise.lab passed test Intersite
