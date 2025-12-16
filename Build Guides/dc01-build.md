@@ -120,6 +120,12 @@ The following artifacts validate correct configuration:
 
 - FSMO role ownership  
   **Evidence:** [`/evidence/ad/netdom-query-fsmo.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/AD/netdom-query-fsmo.txt)
+  
+- DHCP Scope  
+  **Evidence:** [`/evidence/dhcp/dhcp-scope-dc01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/DHCP/dhcp-scope-dc01.png)
+  
+- DHCP Options  
+  **Evidence:** [`/evidence/dhcp/dhcp-options-dc01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/DHCP/dhcp-options-dc01.png)  
 
 ---
 ## Notes
