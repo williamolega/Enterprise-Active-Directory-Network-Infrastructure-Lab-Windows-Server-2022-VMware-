@@ -1,1 +1,29 @@
+PS C:\Users\william.user> ipconfig /all
 
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : Client1
+   Primary Dns Suffix  . . . . . . . : ad.enterprise.lab
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : ad.enterprise.lab
+
+Ethernet adapter Ethernet0:
+
+   Connection-specific DNS Suffix  . : ad.enterprise.lab
+   Description . . . . . . . . . . . : Intel(R) 82574L Gigabit Network Connection
+   Physical Address. . . . . . . . . : 00-0C-29-C8-22-95
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::521e:ffb6:3de7:81eb%7(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.81.100(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Tuesday, December 16, 2025 12:33:45 PM
+   Lease Expires . . . . . . . . . . : Wednesday, December 17, 2025 12:33:44 PM
+   Default Gateway . . . . . . . . . : 192.168.81.1
+   DHCP Server . . . . . . . . . . . : 192.168.81.10
+   DHCPv6 IAID . . . . . . . . . . . : 100666409
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-30-D0-13-A1-00-0C-29-C8-22-95
+   DNS Servers . . . . . . . . . . . : 192.168.81.10
+   NetBIOS over Tcpip. . . . . . . . : Enabled
