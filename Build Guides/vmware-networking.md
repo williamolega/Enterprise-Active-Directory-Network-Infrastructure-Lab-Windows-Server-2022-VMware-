@@ -91,3 +91,51 @@ VMnet8 (NAT)
      │
      ▼
 Internet
+```
+
+This ensures:
+
+- 1 egress point
+- Clear audit boundaries
+- Predictable routing behavior
+
+---
+
+## Validation
+
+The following checks confirm correct configuration:
+
+- VMnet2 is host-only with DHCP disabled
+- VMnet8 is NAT-based
+- No VMs other than Edge-FW01 have interfaces on VMnet8
+- Internal systems cannot reach the internet without passing through the firewall
+
+Evidence:
+
+- [`/evidence/vmware/vmnet2-config.png`](Evidence/VMware/vmnet2-config.png)
+- [`/evidence/vmware/vmnet8-config.png`](Evidence/VMware/vmnet8-config.png)
+  
+---
+
+## Security Considerations
+
+This configuration:
+
+- prevents accidental exposure of identity services
+- Enforces least privilege at network layer
+- Supports future security tooling (IDS, logging, segmentation)
+
+Any deviation from this design must be explicitly justified and documented.
+
+---
+
+## Future Enhancements
+
+This networking foundation supports:
+
+- Additional internal subnets
+- Management or monitoring networks
+- VPN termination at firewall
+- Cloud connectivity extensions
+
+Changes should preserve isolation and boundary clarity.
