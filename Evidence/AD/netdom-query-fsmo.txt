@@ -1,1 +1,7 @@
-
+C:\Users\Administrator>netdom query fsmo
+Schema master               DC01.ad.enterprise.lab
+Domain naming master        DC01.ad.enterprise.lab
+PDC                         DC01.ad.enterprise.lab
+RID pool manager            DC01.ad.enterprise.lab
+Infrastructure master       DC01.ad.enterprise.lab
+The command completed successfully.
