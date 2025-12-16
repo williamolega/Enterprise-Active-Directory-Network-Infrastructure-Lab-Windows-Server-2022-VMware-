@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document defines the configuration of **Edge-FW01**, the firewall for the Enterprise Active Directory Network Lab.
+This document defines the configuration of **Edge-FW01**, the firewall for the Enterprise Active Directory Network Infrastructure Lab.
 
 Edge-FW01 is responsible for:
 - Enforcing a single network boundary
