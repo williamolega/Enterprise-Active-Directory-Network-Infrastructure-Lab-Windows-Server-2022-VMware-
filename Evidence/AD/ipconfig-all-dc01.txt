@@ -1,1 +1,27 @@
+C:\Users\Administrator>ipconfig /all
 
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DC01
+   Primary Dns Suffix  . . . . . . . : ad.enterprise.lab
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : ad.enterprise.lab
+
+Ethernet adapter Ethernet0:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Intel(R) 82574L Gigabit Network Connection
+   Physical Address. . . . . . . . . : 00-0C-29-AD-C9-57
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::cdf:5657:8466:3e9c%11(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.81.10(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.81.1
+   DHCPv6 IAID . . . . . . . . . . . : 100666409
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-30-D0-1B-86-00-0C-29-AD-C9-57
+   DNS Servers . . . . . . . . . . . : ::1
+                                       127.0.0.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
