@@ -37,6 +37,7 @@ The focus of this project is **architecture and security reasoning**, not step-b
 ---
 
 ## High-Level Architecture
+![Enterprise AD Network Architecture](architecture/network-diagram.png)
 
 - **Internal Network:** Isolated enterprise subnet
 - **Firewall:** Single controlled egress point
