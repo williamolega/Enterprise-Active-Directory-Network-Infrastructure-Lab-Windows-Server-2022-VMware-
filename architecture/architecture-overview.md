@@ -134,7 +134,7 @@ Architectural claims are validated through:
 - Command output artifacts
 - Targeted screenshots where visual proof adds value
 
-All evidence is stored separately in the [`/evidence`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/Evidence) directory and referenced during validation.
+All evidence is stored separately in the [`/evidence`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/evidence) directory and referenced during validation.
 
 ---
 
