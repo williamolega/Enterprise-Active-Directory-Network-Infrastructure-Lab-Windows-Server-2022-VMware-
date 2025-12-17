@@ -8,6 +8,22 @@ The focus of this project is **architecture and security reasoning**, not step-b
 
 ---
 
+## Lab at a Glance
+
+| Component | Details |
+|--------|--------|
+| Domain | `ad.enterprise.lab` |
+| Internal Network | `192.168.81.0/24` |
+| Hypervisor | VMware Workstation |
+| Firewall | pfSense (Edge-FW01) |
+| Domain Controller | Windows Server 2022 (DC01) |
+| Client | Windows 11 (Client1) |
+| Identity Model | RBAC + AGDLP |
+| Policy Enforcement | Group Policy |
+| Validation | Evidence-backed |
+
+---
+
 ## What This Lab Demonstrates
 
 - Enterprise-aligned Active Directory design
