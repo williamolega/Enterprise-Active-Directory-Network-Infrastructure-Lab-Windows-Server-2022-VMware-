@@ -101,7 +101,7 @@ Logging configuration and effectiveness are validated using:
 - `gpresult` audit policy confirmation
 - Sample security event exports
 
-Evidence artifacts are stored in the [`/evidence`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/Evidence) directory and referenced during validation.
+Evidence artifacts are stored in the [`/evidence`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/evidence) directory and referenced during validation.
 
 ---
 

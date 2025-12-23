@@ -25,7 +25,7 @@ Run `ipconfig /all` on Client1.
 - Default gateway = Edge-FW01  
 
 **Evidence:**  
-[`/evidence/clients/ipconfig-all-client1.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Clients/ipconfig-all-client1.txt)
+[`/evidence/clients/ipconfig-all-client1.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Clients/ipconfig-all-client1.txt)
 
 ---
 
@@ -42,7 +42,7 @@ Generate Resultant Set of Policy (RSoP).
 - No errors in policy processing
 
 **Evidence:**  
-[`/evidence/clients/gpresult-client1.html`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Clients/gpresult-client1.html)
+[`/evidence/clients/gpresult-client1.html`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Clients/gpresult-client1.html)
 
 ---
 
@@ -58,7 +58,7 @@ Run `whoami` as logged-in user.
 - Output reflects domain identity
 
 **Evidence:**  
-[`/evidence/clients/whoami-client1.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Clients/whoami-client1.txt)
+[`/evidence/clients/whoami-client1.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Clients/whoami-client1.txt)
 
 ---
 
@@ -74,7 +74,7 @@ Review system properties.
 - Domain = `ad.enterprise.lab`
 
 **Evidence:**  
-[`/evidence/clients/system-domain-membership-client1.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Clients/system-domain-membership-client1.png)
+[`/evidence/clients/system-domain-membership-client1.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Clients/system-domain-membership-client1.png)
 
 ---
 
@@ -91,8 +91,8 @@ Review DHCP Manager configuration.
 - Correct router and DNS options
 
 **Evidence:**  
-- [`/evidence/dhcp/dhcp-scope-dc01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/DHCP/dhcp-scope-dc01.png)
-- [`/evidence/dhcp/dhcp-options-dc01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/DHCP/dhcp-options-dc01.png)
+- [`/evidence/dhcp/dhcp-scope-dc01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/DHCP/dhcp-scope-dc01.png)
+- [`/evidence/dhcp/dhcp-options-dc01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/DHCP/dhcp-options-dc01.png)
 
 ---
 
@@ -110,9 +110,9 @@ Review firewall configuration.
 - No inbound exposure
 
 **Evidence:**  
-- [`/evidence/firewall/interfaces-edge-fw01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Firewall/interfaces-edge-fw01.png)
-- [`/evidence/firewall/nat-outbound.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Firewall/nat-outbound.png)
-- [`/evidence/firewall/firewall-rules-lan.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Firewall/firewall-rules-lan.png)
+- [`/evidence/firewall/interfaces-edge-fw01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Firewall/interfaces-edge-fw01.png)
+- [`/evidence/firewall/nat-outbound.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Firewall/nat-outbound.png)
+- [`/evidence/firewall/firewall-rules-lan.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Firewall/firewall-rules-lan.png)
 
 ---
 

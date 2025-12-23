@@ -98,13 +98,13 @@ This preserves DNS authority within Active Directory.
 The following artifacts validate correct configuration:
 
 - LAN/WAN interface assignments  
-  **Evidence:** [`/evidence/firewall/interfaces-edge-fw01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Firewall/interfaces-edge-fw01.png)
+  **Evidence:** [`/evidence/firewall/interfaces-edge-fw01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Firewall/interfaces-edge-fw01.png)
 
 - Outbound NAT enforcement  
-  **Evidence:** [`/evidence/firewall/nat-outbound.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Firewall/nat-outbound.png)
+  **Evidence:** [`/evidence/firewall/nat-outbound.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Firewall/nat-outbound.png)
 
 - LAN firewall policy  
-  **Evidence:** [`/evidence/firewall/firewall-rules-lan.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Firewall/firewall-rules-lan.png)
+  **Evidence:** [`/evidence/firewall/firewall-rules-lan.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Firewall/firewall-rules-lan.png)
 
 ---
 

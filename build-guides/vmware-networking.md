@@ -112,8 +112,8 @@ The following checks confirm correct configuration:
 
 Evidence:
 
-- [`/evidence/vmware/vmnet2-config.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/VMware/vmnet2-config.png)
-- [`/evidence/vmware/vmnet8-config.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/VMware/vmnet8-config.png)
+- [`/evidence/vmware/vmnet2-config.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/VMware/vmnet2-config.png)
+- [`/evidence/vmware/vmnet8-config.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/VMware/vmnet8-config.png)
   
 ---
 

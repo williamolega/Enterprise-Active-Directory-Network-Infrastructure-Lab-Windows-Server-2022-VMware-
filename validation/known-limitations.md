@@ -123,7 +123,7 @@ The lab is designed for architectural learning, not performance benchmarking.
 
 ### Limitation
 Validation assumes:
-- Assumptions documented in [`/planning/assumptions.md`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Planning/assumptions.md) hold true
+- Assumptions documented in [`/planning/assumptions.md`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/planning/assumptions.md) hold true
 - No undocumented changes exist
 
 ### Impact

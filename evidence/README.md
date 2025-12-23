@@ -58,7 +58,7 @@ Artifacts validating virtual networking configuration, including:
 ## Relationship to Validation
 
 Evidence artifacts are referenced explicitly in:
-- [`validation/acceptance-criteria.md`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Validation/acceptance-criteria.md)
-- [`validation/validation-tests.md`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Validation/validation-tests.md)
+- [`validation/acceptance-criteria.md`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/validation/acceptance-criteria.md)
+- [`validation/validation-tests.md`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/validation/validation-tests.md)
 
 Evidence supports **claims**, not instructions.

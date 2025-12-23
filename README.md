@@ -44,19 +44,19 @@ The focus of this project is **architecture and security reasoning**, not step-b
 - **Identity Services:** Active Directory with AD-integrated DNS
 - **Clients:** Domain-joined Windows systems
 
-See [`/architecture/architecture-overview.md`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Architecture/architecture-overview.md) for details.
+See [`/architecture/architecture-overview.md`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/architecture/architecture-overview.md) for details.
 
 ---
 
 ## Repository Structure
 
-- [`architecture/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/Architecture):  System design and trust boundaries  
-- [`identity/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/Identity):  AD, OU, group, RBAC design  
-- [`security/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/Security):  GPO baselines, logging, admin tiering  
-- [`planning/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/Planning):  Assumptions, risks, scope, roadmap  
-- [`build-guides/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/Build%20Guides):  Component-focused build documentation  
-- [`validation/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/Validation):  Acceptance criteria and validation tests  
-- [`evidence/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/Evidence):  Proof artifacts supporting validation  
+- [`architecture/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/architecture):  System design and trust boundaries  
+- [`identity/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/identity):  AD, OU, group, RBAC design  
+- [`security/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/security):  GPO baselines, logging, admin tiering  
+- [`planning/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/planning):  Assumptions, risks, scope, roadmap  
+- [`build-guides/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/build-guides):  Component-focused build documentation  
+- [`validation/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/validation):  Acceptance criteria and validation tests  
+- [`evidence/`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/evidence):  Proof artifacts supporting validation  
 
 ---
 

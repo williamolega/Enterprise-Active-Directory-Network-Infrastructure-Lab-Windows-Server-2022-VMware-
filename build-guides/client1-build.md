@@ -75,16 +75,16 @@ User and computer authentication occurs via Active Directory.
 The following artifacts validate correct configuration:
 
 - DHCP assignment and DNS configuration  
-  **Evidence:** [`/evidence/clients/ipconfig-all-client1.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Clients/ipconfig-all-client1.txt)
+  **Evidence:** [`/evidence/clients/ipconfig-all-client1.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Clients/ipconfig-all-client1.txt)
 
 - Domain membership confirmation and Group Policy application  
-  **Evidence:** [`/evidence/clients/gpresult-client1.html`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Clients/gpresult-client1.html)
+  **Evidence:** [`/evidence/clients/gpresult-client1.html`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Clients/gpresult-client1.html)
 
 - Identity context verification  
-  **Evidence:** [`/evidence/clients/whoami-client1.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Clients/whoami-client1.txt)
+  **Evidence:** [`/evidence/clients/whoami-client1.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Clients/whoami-client1.txt)
 
 - System Domain Membership  
-  **Evidence:** [`/evidence/clients/system-domain-membership-client1.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/Clients/system-domain-membership-client1.png)
+  **Evidence:** [`/evidence/clients/system-domain-membership-client1.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/Clients/system-domain-membership-client1.png)
 
 
 ---

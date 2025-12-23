@@ -138,7 +138,7 @@ Baseline enforcement is validated using:
 - Event logs
 - Configuration review
 
-Evidence is stored separately in the [`/evidence`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/Evidence) directory.
+Evidence is stored separately in the [`/evidence`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/tree/main/evidence) directory.
 
 ---
 

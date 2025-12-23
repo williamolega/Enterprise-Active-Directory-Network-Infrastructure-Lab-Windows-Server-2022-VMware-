@@ -110,22 +110,22 @@ This configuration aligns with least privilege and separation of duties principl
 The following artifacts validate correct configuration:
 
 - Active Directory health  
-  **Evidence:** [`/evidence/ad/dcdiag-dc01.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/edit/main/Evidence/AD/dcdiag-dc01.txt)
+  **Evidence:** [`/evidence/ad/dcdiag-dc01.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/edit/main/evidence/AD/dcdiag-dc01.txt)
 
 - Network configuration  
-  **Evidence:** [`/evidence/ad/ipconfig-all-dc01.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/AD/ipconfig-all-dc01.txt)
+  **Evidence:** [`/evidence/ad/ipconfig-all-dc01.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/AD/ipconfig-all-dc01.txt)
 
 - DNS configuration and forwarders  
-  **Evidence:** [`/evidence/ad/dns-forwarders-dc01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/AD/dns-forwarders.dc01.png)
+  **Evidence:** [`/evidence/ad/dns-forwarders-dc01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/AD/dns-forwarders.dc01.png)
 
 - FSMO role ownership  
-  **Evidence:** [`/evidence/ad/netdom-query-fsmo.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/AD/netdom-query-fsmo.txt)
+  **Evidence:** [`/evidence/ad/netdom-query-fsmo.txt`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/AD/netdom-query-fsmo.txt)
   
 - DHCP Scope  
-  **Evidence:** [`/evidence/dhcp/dhcp-scope-dc01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/DHCP/dhcp-scope-dc01.png)
+  **Evidence:** [`/evidence/dhcp/dhcp-scope-dc01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/DHCP/dhcp-scope-dc01.png)
   
 - DHCP Options  
-  **Evidence:** [`/evidence/dhcp/dhcp-options-dc01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/Evidence/DHCP/dhcp-options-dc01.png)  
+  **Evidence:** [`/evidence/dhcp/dhcp-options-dc01.png`](https://github.com/williamolega/Enterprise-Active-Directory-Network-Infrastructure-Lab-Windows-Server-2022-VMware-/blob/main/evidence/DHCP/dhcp-options-dc01.png)  
 
 ---
 ## Notes
